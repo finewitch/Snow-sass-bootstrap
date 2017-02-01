@@ -569,8 +569,7 @@ ul.dropdown-menu a:hover {
   max-width: 700px;
   min-width: 500px;
   display: block;
-  margin: 0 auto;
-  margin-left: -30px; }
+  margin: 0 auto; }
   @media only screen and (max-width: 768px) {
     .cocoen {
       min-width: 300px;
