@@ -57,7 +57,10 @@ ul.dropdown-menu{
 	}
 }
 ul.nav.navbar-nav{
-		a{
+		a{	@include respond-to(phones){
+			font: 130% $main-font;
+			}
+			
 			&:hover{
 				background-color: transparent;
 			}
