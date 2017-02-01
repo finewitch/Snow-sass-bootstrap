@@ -58,7 +58,7 @@ ul.dropdown-menu{
 }
 ul.nav.navbar-nav{
 		a{	@include respond-to(phones){
-			font: 130% $main-font;
+			font: 140% $main-font;
 			}
 			
 			&:hover{
@@ -159,9 +159,10 @@ ul.dropdown-menu {
 }
 .article-middle-res {
 	margin-top:30px;
+	margin-left: -20px;
 	& img{
 	@include respond-to(phones){
-		max-width:375px;		
+		max-width:300px;		
 }
 	@include respond-to(middle-screens){
 		top:-40px;
