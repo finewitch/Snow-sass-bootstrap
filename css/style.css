@@ -480,7 +480,7 @@ ul.dropdown-menu a:hover {
     color: #25365d; }
     @media only screen and (max-width: 768px) {
       .article-head h2, .article-head-slider h2, .footer-head h2 {
-        font: 250% "Oswald", sans-serif; } }
+        font: 220% "Oswald", sans-serif; } }
 
 .article-middle-res {
   margin-top: 30px;
@@ -563,22 +563,23 @@ ul.dropdown-menu a:hover {
     color: #25365d; }
 
 .aside-slider, .aside-plans {
-  margin-top: 50px;
-  padding-right: 30px;
-  padding-left: 30px; }
+  margin-top: 50px; }
 
 .cocoen {
   max-width: 700px;
   min-width: 500px;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-left: -30px; }
   @media only screen and (max-width: 768px) {
     .cocoen {
       min-width: 300px;
       max-width: 400px; } }
 
 .aside-features-container {
-  margin-top: 100px; }
+  margin-top: 100px;
+  padding-right: 20px;
+  padding-left: 20px; }
 
 .aside-features > div > .fa {
   color: #ff2868; }

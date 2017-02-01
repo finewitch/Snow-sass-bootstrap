@@ -153,7 +153,7 @@ ul.dropdown-menu {
 		font: 400% $condensed-font;
 		color: $dark-blue;
 		@include respond-to(phones){
-		font: 250% $condensed-font;
+		font: 220% $condensed-font;
 		}
 	}
 }
@@ -252,8 +252,8 @@ ul.dropdown-menu {
 //aside2
 .aside-slider{
 	margin-top:50px;
-	padding-right:30px;
-	padding-left:30px;
+	//padding-right:30px;
+	//padding-left:30px;
 	
 }
 .cocoen{
@@ -261,6 +261,7 @@ ul.dropdown-menu {
 	min-width:500px;
 	display: block;
 	margin: 0 auto;
+	margin-left:-30px;
 	@include respond-to(phones){
 		min-width:300px;
 		max-width:400px;
@@ -268,6 +269,8 @@ ul.dropdown-menu {
 }
 .aside-features-container{
 	margin-top:100px;
+	padding-right:20px;
+	padding-left:20px;
 }
 .aside-features{
 	@extend .aside-container;
